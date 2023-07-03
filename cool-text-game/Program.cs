@@ -10,6 +10,7 @@ namespace cool_text_game
     {
         static void Main(string[] args)
         {
+            sdfgsdfs
         }
     }
 }
