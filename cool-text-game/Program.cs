@@ -11,6 +11,7 @@ namespace cool_text_game
         static void Main(string[] args)
         {
             Console.WriteLine("Привет, я Серёга гыгы-гага");
+            Console.WriteLine("Привет, я Глеб Сесь");
         }
     }
 }
