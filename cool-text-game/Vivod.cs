@@ -19,7 +19,7 @@ class NovelTextPrinter
             foreach (char c in line)
             {
                 Console.Write(c);
-                Thread.Sleep(5);
+                Thread.Sleep(2);
             }
         }
         else

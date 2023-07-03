@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cool_text_game
-{
+
     public class Novel
     {
         private NovelTextPrinter textPrinter;
@@ -18,8 +17,18 @@ namespace cool_text_game
         public void Start()
         {
             // Выводим первую строку новеллы
-            textPrinter.PrintLine("Вы находитесь в темном лесу...");
+            textPrinter.PrintLine("В недалеком городке Компорово жил веселый парень - Ноегис. Ему было всего 17 лет и он решил отправится в лагерь \"Верхневолжский\".");
             textPrinter.Wait();
+
+            textPrinter.PrintLine("Ноегис - больной парень, страдающий Альцгеймером и Амнезией.");
+            textPrinter.Wait();
+
+            textPrinter.PrintLine("Дабы почувствовать себя лучше, герой решает отправится в лагерь, чтобы найти друзей(а мб и девушку).");
+            textPrinter.Wait();
+
+            textPrinter.PrintLine("Наш герой сел не на тот автобус, где абсолютно не было людей, но подумал что так и надо, ведь он едет один из самых первых.");
+            textPrinter.Wait();
+
 
             // Вариант выбора 1
             if (textPrinter.ChooseOption("Пойти налево", "Придержаться левой тропы"))
@@ -74,4 +83,3 @@ namespace cool_text_game
             textPrinter.Wait();
         }
     }
-}
