@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
         public void Start()
         {
-            // Выводим первую строку новеллы
+
             textPrinter.PrintLine("В недалеком городке Компорово жил веселый парень - Ноегис. Ему было всего 17 лет и он решил отправится в лагерь \"Верхневолжский\".");
             textPrinter.Wait();
 
@@ -29,55 +29,32 @@ using System.Threading.Tasks;
             textPrinter.PrintLine("Наш герой сел не на тот автобус, где абсолютно не было людей, но подумал что так и надо, ведь он едет один из самых первых.");
             textPrinter.Wait();
 
-
-            // Вариант выбора 1
-            if (textPrinter.ChooseOption("Пойти налево", "Придержаться левой тропы"))
+            //Выбор 1
+            if (textPrinter.ChooseOption("Поехать домой", "На мужика пойти в лагерь"))
             {
-                textPrinter.PrintLine("Вы выбрали пойти налево.");
+                textPrinter.PrintLine("Вы выбрали поехать домой.");
                 textPrinter.Wait();
 
-                // Ветка повествования для первого выбора
-                textPrinter.PrintLine("Вы продолжаете идти по лесной тропе...");
-                textPrinter.Wait();
-                textPrinter.PrintLine("Вдруг вы видите яркий свет впереди...");
-                textPrinter.Wait();
+                Console.WriteLine("Конец истории. Нажмите любую клавишу для выхода.");
+                Console.ReadKey();
+                Environment.Exit(0);
             }
             else
             {
-                textPrinter.PrintLine("Вы выбрали не идти налево.");
+                textPrinter.PrintLine("Вы выбрали на мужика пойти в лагерь.");
                 textPrinter.Wait();
 
-                // Ветка повествования для первого выбора
-                textPrinter.PrintLine("Вы решаете идти прямо по главной тропе...");
+                textPrinter.PrintLine("Ноегис идет на кпп, но там никого нет. Он удивляется, где охрана или кто то вообще.");
                 textPrinter.Wait();
-                textPrinter.PrintLine("Через некоторое время вы видите развилку...");
+
+                textPrinter.PrintLine("Но на смелости заходит уже в сам лагерь.");
+                textPrinter.Wait();
+
+                textPrinter.PrintLine("Паренек сразу видит прекрасный лес , который окутал почти 50га земли, спортплощадки, огромный дом культуры и самое интересное жилые корпуса.");
                 textPrinter.Wait();
             }
 
-            // Вариант выбора 2
-            if (textPrinter.ChooseOption("Пойти направо", "Свернуть вправо"))
-            {
-                textPrinter.PrintLine("Вы выбрали пойти направо.");
-                textPrinter.Wait();
-
-                // Ветка повествования для второго выбора
-                textPrinter.PrintLine("Вы следуете по узкой тропинке...");
-                textPrinter.Wait();
-                textPrinter.PrintLine("Через некоторое время вы видите ручеек...");
-                textPrinter.Wait();
-            }
-            else
-            {
-                textPrinter.PrintLine("Вы выбрали не идти направо.");
-                textPrinter.Wait();
-
-                // Ветка повествования для второго выбора
-                textPrinter.PrintLine("Вы решаете идти прямо по главной тропе...");
-                textPrinter.Wait();
-                textPrinter.PrintLine("По пути вы встречаете заброшенную хижину...");
-                textPrinter.Wait();
-            }
-
+            
             // Завершаем новеллу
             textPrinter.PrintLine("Выходите из леса...");
             textPrinter.Wait();
