@@ -1,16 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
-namespace cool_text_game
+class NovelWriter
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Привет, я Серёга гыгы-гага");
-        }
+        // Создаем экземпляр класса Novel
+        Novel novel = new Novel();
+
+        // Начинаем новеллу
+        novel.Start();
+
+        Console.WriteLine("Конец истории. Нажмите любую клавишу для выхода.");
+        Console.ReadKey();
     }
 }
+
