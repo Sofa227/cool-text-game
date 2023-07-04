@@ -25,7 +25,7 @@ using System.Threading.Tasks;
             textPrinter.PrintLine("Ноегис - больной парень, страдающий Альцгеймером и Амнезией.");
             textPrinter.Wait();
 
-            textPrinter.PrintLine("Дабы почувствовать себя лучше, герой решает отправится в лагерь, чтобы найти друзей(а мб и девушку).");
+            textPrinter.PrintLine("Дабы почувствовать себя лучше, герой решает отправится в лагерь, чтобы найти друзей.");
             textPrinter.Wait();
 
             textPrinter.PrintLine("Наш герой сел не на тот автобус, где абсолютно не было людей, но подумал что так и надо, ведь он едет один из самых первых.");
@@ -115,7 +115,7 @@ using System.Threading.Tasks;
                         textPrinter.PrintLine("Ноегис вернулся на первй этаж и взял ключи от комнаты у коменданта.");
                         textPrinter.Wait();
 
-                        textPrinter.PrintLine("Гг пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
+                        textPrinter.PrintLine("Ноегис пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
                         textPrinter.Wait();
 
                         textPrinter.PrintLine("Заходит Ваня и говорит: - эй, соня, ты так весь день проспишь, пошли на речку.");
@@ -181,7 +181,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -629,7 +629,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -1105,7 +1105,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -1553,7 +1553,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -2014,7 +2014,7 @@ using System.Threading.Tasks;
                         textPrinter.PrintLine("Ноегис взял ключи от комнаты у коменданта.");
                         textPrinter.Wait();
 
-                        textPrinter.PrintLine("Гг пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
+                        textPrinter.PrintLine("Ноегис пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
                         textPrinter.Wait();
 
                         textPrinter.PrintLine("Заходит Ваня и говорит: - эй, соня, ты так весь день проспишь, пошли на речку.");
@@ -2080,7 +2080,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -2528,7 +2528,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -3004,7 +3004,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -3452,7 +3452,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -3954,7 +3954,7 @@ using System.Threading.Tasks;
                         textPrinter.PrintLine("Ноегис вернулся на первй этаж и взял ключи от комнаты у коменданта.");
                         textPrinter.Wait();
 
-                        textPrinter.PrintLine("Гг пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
+                        textPrinter.PrintLine("Ноегис пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
                         textPrinter.Wait();
 
                         textPrinter.PrintLine("Заходит Ваня и говорит: - эй, соня, ты так весь день проспишь, пошли на речку.");
@@ -4020,7 +4020,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -4468,7 +4468,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -4944,7 +4944,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -5392,7 +5392,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -5853,7 +5853,7 @@ using System.Threading.Tasks;
                         textPrinter.PrintLine("Ноегис взял ключи от комнаты у коменданта.");
                         textPrinter.Wait();
 
-                        textPrinter.PrintLine("Гг пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
+                        textPrinter.PrintLine("Ноегис пошел по коридору с вещами, считая комнаты. Увидел свою, открыл, порадовался, прилег, уснул.");
                         textPrinter.Wait();
 
                         textPrinter.PrintLine("Заходит Ваня и говорит: - эй, соня, ты так весь день проспишь, пошли на речку.");
@@ -5919,7 +5919,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -6367,7 +6367,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
@@ -6843,7 +6843,7 @@ using System.Threading.Tasks;
                             textPrinter.PrintLine("Ноегис зашел в комнату и увидел своего соседа, который недавно приехал: - Здрррравствуй, я Василий Муравьедов! - произнес тот сидя на кровати.");
                             textPrinter.Wait();
 
-                            textPrinter.PrintLine("- Привет, Василий!(Гг сразу смутился потому что он был похож на ботана)");
+                            textPrinter.PrintLine("- Привет, Василий!(Ноегис сразу смутился потому что он был похож на ботана)");
                             textPrinter.Wait();
 
                             if (textPrinter.ChooseOption("Лечь спать", "Пойти помыться"))
@@ -7291,7 +7291,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- Привет, я новенький, можешь подсказать где 228 комната. - говорит Саня.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("ГГ показывает комнату и они прощаются.");
+                                textPrinter.PrintLine("Ноегис показывает комнату и они прощаются.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Парень помылся пришел и лег на кровать.");
