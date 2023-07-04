@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
     public class Novel
     {
-        private NovelTextPrinter textPrinter;
+        private Vivod textPrinter;
 
         public Novel()
         {
-            textPrinter = new NovelTextPrinter();
+            textPrinter = new Vivod();
         }
 
         public void Start()
