@@ -638,7 +638,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -1562,7 +1562,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -2537,7 +2537,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -3461,7 +3461,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -4477,7 +4477,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -5401,7 +5401,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -6376,7 +6376,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно.");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
@@ -7300,7 +7300,7 @@ using System.Threading.Tasks;
                                 textPrinter.PrintLine("- А вообще я очень люблю прогграмировать. - сказал Вася Муравьедов.");
                                 textPrinter.Wait();
 
-                                textPrinter.PrintLine("- Понятно. (нах мне инфа эта).");
+                                textPrinter.PrintLine("- Понятно. ");
                                 textPrinter.Wait();
 
                                 textPrinter.PrintLine("Ноегис уснул.");
