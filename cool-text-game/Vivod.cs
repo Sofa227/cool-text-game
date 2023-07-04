@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System;
 
-class NovelTextPrinter
+class Vivod
 {
     private bool waitForSpace;
 
-    public NovelTextPrinter()
+    public Vivod()
     {
         waitForSpace = true;
     }
