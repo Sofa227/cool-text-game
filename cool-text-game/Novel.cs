@@ -16,28 +16,24 @@ using System.Threading.Tasks;
 
         public void Start()
         {
-
-            textPrinter.PrintLine("В недалеком городке Компорово жил веселый парень - Ноегис. Ему было всего 17 лет и он решил отправится в лагерь \"Верхневолжский\".");
+        //День 2
+            textPrinter.PrintLine("СЛЕДУЮЩИЙ ДЕНЬ");
+            textPrinter.Wait();
+            textPrinter.PrintLine("- Доброе Утро! Я за ночь успел пофиксить 16 багов. - Сказал Муравьед.");
             textPrinter.Wait();
 
-            textPrinter.PrintLine("Ноегис - больной парень, страдающий Альцгеймером и Амнезией.");
-            textPrinter.Wait();
-
-            textPrinter.PrintLine("Дабы почувствовать себя лучше, герой решает отправится в лагерь, чтобы найти друзей(а мб и девушку).");
-            textPrinter.Wait();
-
-            textPrinter.PrintLine("Наш герой сел не на тот автобус, где абсолютно не было людей, но подумал что так и надо, ведь он едет один из самых первых.");
+            textPrinter.PrintLine("- Привет! - с отвращением ответил Ноегис.");
             textPrinter.Wait();
 
             //Выбор 1
-            if (textPrinter.ChooseOption("Поехать домой", "На мужика пойти в лагерь"))
+            if (textPrinter.ChooseOption("Пойти умыться", "Пойти кушать в столовую"))
             {
-                textPrinter.PrintLine("Вы выбрали поехать домой.");
+                textPrinter.PrintLine("Вы выбрали сходить умыться.");
                 textPrinter.Wait();
 
-                Console.WriteLine("Конец истории. Нажмите любую клавишу для выхода.");
-                Console.ReadKey();
-                Environment.Exit(0);
+                textPrinter.PrintLine("Ноегис почистил зубки и приятно пахнет теперь");
+                textPrinter.Wait();
+                
             }
             else
             {
