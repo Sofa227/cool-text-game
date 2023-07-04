@@ -11,7 +11,7 @@ class NovelWriter
         // Начинаем новеллу
         novel.Start();
 
-        Console.WriteLine("Конец истории. Нажмите любую клавишу для выхода.");
+        Console.WriteLine("Конец истории. Спасибо вам за игру!!! Нажмите любую клавишу для выхода.");
         Console.ReadKey();
     }
 }
